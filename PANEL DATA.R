@@ -1,6 +1,5 @@
 #===============================================================================
 # BERLATIH OLAH DATA PANEL STATIS MENGGUNAKAN R
-# Script Manage by HANANTA ANGGER YUGA PRAWIRA, 11 MEI 2026
 # LAST UPDATED 11 MEI 2026 6:04 WIB
 #===============================================================================
 rm(list = ls()) #Membersihkan Enviroment
@@ -256,3 +255,6 @@ stargazer(ModelCEM, ModelFEM, ModelREM, ModelREM,
           add.lines = list(c("Uji Asumsi Klasik", "Dipenuhi", "Dipenuhi", "Dipenuhi", "Koreksi Robust")),
           notes = "Diolah oleh Hananta Angger Yuga Prawira (2026)",
           out = "Hasil_Regresi_Final.txt")
+#=====================================================================================
+#--------------------------------------------------------------------------------------
+#======================================================================================
